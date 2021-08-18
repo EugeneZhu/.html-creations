@@ -1,0 +1,96 @@
+/* Anything in here is a comment. 
+
+selector{
+property: value;
+}
+
+*/
+
+body{
+    margin: 2rem;
+}
+
+h1{
+    font-size: 3rem;
+    margin-bottom: 0;
+}
+
+h2{
+    font-size: 2.25rem;
+    margin-bottom: 0;
+}
+
+p, ul, ol {
+    max-width: 40rem;
+}
+
+img{
+    height: auto;
+    max-width: 100%;
+}
+
+.text-align{
+    text-align: center;
+}
+
+/* Learned in class */
+
+.my-button {
+    display: inline-block;
+    text-align: center;
+    height: 3rem;
+    color: rgb(17, 0, 255);
+    background-color: gray;
+    padding: 0.5rem 0.75rem;
+    text-decoration: none;
+    
+}
+
+/* Learned in class */
+
+.bio-button {
+    display: inline-block;
+    height: text;
+    color: rgb(17, 0, 255);
+    background-color: gray;
+    padding: 0.5rem 0.75rem;
+    text-decoration: none;
+    
+}
+
+.my-link {
+    color: rgb(17, 0, 255);
+    
+}
+
+.my-button:hover, .my-button:focus {
+    color: red;
+}
+
+.my-link:hover, .my-link:focus {
+    color: red;
+}
+
+/* Learned to align text https://stackoverflow.com/questions/13217797/how-to-align-the-text-middle-of-button/13219284 */    
+.my-image {
+    display: inline-block;
+    height: 10rem;
+    color: rgb(17, 0, 255);
+    background-color: gray;
+    padding: .5rem .75rem;
+    text-decoration: none;
+    text-align: center;
+    line-height: 7.5rem;
+}
+
+.square {
+    height: 20rem;
+    background-color: grey;
+    max-width: 100%;
+}
+
+.placeholder {
+    height: 10rem;
+    background-color: grey;
+    max-width: 20rem;
+}
